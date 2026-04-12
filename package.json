@@ -1,0 +1,11 @@
+{
+  "name": "university-portal-documentation-module",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check main.js"
+  }
+}
