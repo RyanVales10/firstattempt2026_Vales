@@ -13,6 +13,8 @@ The preview server opens at the local address shown in the terminal.
 ## Screens
 
 - Alumni login
+  <img width="1356" height="762" alt="image" src="https://github.com/user-attachments/assets/3eb923cb-20d2-45cf-bda5-2a284e083712" />
+
 - Alumni dashboard
 - Alumni profile
 - Document selection
