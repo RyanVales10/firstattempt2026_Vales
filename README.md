@@ -84,7 +84,32 @@ If you are moving the project to a different computer, copy the entire repositor
 ## AI Tools used
 GPT - 5.3 - Codex
 ## Prompt: 
-Act like a Senior UI/UX Designer. Create the Documentation Module of the University Portal. Copy the User Screens attached in the PDF exactly as to how it looks like. Use Vanilla JS
+I have an existing Vanilla JavaScript web application and I want to convert it into a fully functional Progressive Web App (PWA).
+
+My project details:
+
+Framework: Vanilla JS (HTML, CSS, JS)
+No build tool
+Running using Node.js local server (server.js)
+
+Your task:
+Guide me step-by-step and generate all required code to make my app PWA-ready.
+
+I need help implementing:
+
+Create a valid manifest.json
+Include name, short_name, start_url, display: standalone
+Include theme_color and background_color
+Include icons (AdDU Blue Seal.png)
+Create and register a Service Worker
+Cache core files (HTML, CSS, JS, images)
+Enable offline functionality
+Use a simple Cache First strategy
+Show how to register the Service Worker in Vanilla JS
+Implement caching logic
+Pre-cache essential files
+Handle fetch events
+Ensure the app is installable
 ## Screenshots:
 
 - Alumni login
