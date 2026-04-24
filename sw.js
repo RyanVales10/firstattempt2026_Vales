@@ -1,4 +1,4 @@
-const CACHE_NAME = 'university-portal-v1';
+const CACHE_NAME = 'university-portal-v3';
 
 const CORE_ASSETS = [
   './',
@@ -20,7 +20,6 @@ const CORE_ASSETS = [
   './image-9.png',
   './image-10.png',
   './image-11.png',
-  './favicon.ico',
   './image-12.png'
 ];
 
@@ -70,7 +69,9 @@ self.addEventListener('fetch', (event) => {
               return fallback;
             }
           }
-          throw new Error('Offline and no cached resource found.');
+
+          // Avoid noisy errors for optional asset requests when offline.
+          return new Response('', { status: 204, statusText: 'No Content' });
         });
     })
   );
